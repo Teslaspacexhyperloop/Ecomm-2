@@ -1,0 +1,51 @@
+/* CarouselComponent.css */
+.carousel-image {
+    height: 300px; /* Set the desired height */
+    object-fit: cover; /* This ensures the image covers the specified height */
+    object-position: top; /* This displays the top part of the image */
+}
+
+.mycarousel{
+    height: fit-content;
+    margin-bottom: 30px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-grid {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card-item {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-item:hover {
+    transform: scale(1.05);
+}
+
+.product-carousel{
+    padding: 25px;
+    background-color: white
+    
+}
+
+
